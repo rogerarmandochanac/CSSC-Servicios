@@ -1,0 +1,65 @@
+:root{
+    --color-negro:#000;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3.5rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.menu .menu-item a{
+    color: var(--color-negro);
+    text-decoration: none;
+}
+
+.menu .menu-item .active{
+    color: #0011ff;
+}
+
+.submenu{
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 8rem;
+    flex-direction: column;
+    margin-top:1.9rem;
+    background-color: white;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+
+.submenu-item{
+    padding: 0 0 1rem 2rem;
+}
+
+.submenu-item a{
+    text-decoration: none;
+    color:var(--color-negro);
+    font-weight: 100;
+}
+
+.menu-item:hover .submenu{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+
