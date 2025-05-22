@@ -6,10 +6,16 @@ video{
     width: 100%;
 }
 
-.header-text{
+.header-container{
     position: absolute;
     top:0;
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:10rem;
+}
+
+.header-text{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: auto;
@@ -30,7 +36,7 @@ video{
     gap:2rem;
 }
 
-.header-button{
+.button{
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 5rem;
@@ -39,4 +45,10 @@ video{
     padding:1rem;
     width: 70%;
     text-align: center;
+}
+
+.header-frase{
+    text-align: center;
+    color:white;
+    font-size: 2.5rem;
 }

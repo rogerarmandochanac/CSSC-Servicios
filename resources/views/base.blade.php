@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset("css/base.css") }}">
     <link rel="stylesheet" href="{{ asset("css/navbar.css") }}">
     <link rel="stylesheet" href="{{ asset("css/header.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/servicios.css") }}">
 </head>
 <body>
     @include("navbar")
