@@ -6,7 +6,7 @@
         <li class="menu-item" id="btn-servicios">
             <a href="">Servicios</a>
             <ul class="submenu" id="submenu-servicios">
-                <li class="submenu-item"><a href="">Servicio Uno</a></li>
+                <li class="submenu-item"><a href="{{ asset("servicio-uno") }}">Servicio Uno</a></li>
                 <li class="submenu-item"><a href="">Servicio Dos</a></li>
             </ul>
         </li>

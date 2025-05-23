@@ -10,7 +10,7 @@
                 <div class="servicios-card-info">
                 <h3 class="servicios-card-title">Servicio Uno</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quo est eligendi nulla, repellendus ratione delectus minus quis distinctio cupiditate porro accusamus, sapiente totam quibusdam qui nihil voluptate. Facilis, sit!</p>
-                <a href="" class="card-button button">Saber más</a>
+                <a href="{{ asset("servicio-uno") }}" class="card-button button">Saber más</a>
             </div>
         </div>
         <div class="servicios-card">
