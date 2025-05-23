@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/servicio-uno', function () {
     return view('servicio_uno');
 });
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});

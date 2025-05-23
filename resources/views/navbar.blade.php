@@ -1,7 +1,7 @@
 <nav>
     <img src="{{ asset("img/cssc_logo02.png") }}" alt="" height="100%">
     <ul class="menu">
-        <li class="menu-item"><a href="" class="active">Inicio</a></li>
+        <li class="menu-item"><a href="{{ asset("") }}" class="active">Inicio</a></li>
         <li class="menu-item"><a href="">Nosotros</a></li>
         <li class="menu-item" id="btn-servicios">
             <a href="">Servicios</a>
