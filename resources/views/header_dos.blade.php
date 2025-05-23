@@ -1,4 +1,4 @@
-<header>
+<header class="header-dos">
     <video src="{{ asset("img/background01.mov") }}" width="100%" autoplay muted loop></video>
     <div class="header-container" style="text-align:center">
         <h1 class="header-title">Lorem, ipsum dolor sit amet consectetur adipisicing</h1>
