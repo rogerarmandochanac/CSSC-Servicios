@@ -4,4 +4,5 @@
 @endsection
 @section("contenedor")
     @include("servicios")
+    @include("soluciones")
 @endsection

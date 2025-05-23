@@ -45,6 +45,7 @@ video{
     padding:1rem;
     width: 70%;
     text-align: center;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .header-frase{
