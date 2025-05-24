@@ -1,0 +1,75 @@
+.capacitacion{
+    background-image: url(../img/capacitacion.jpg);
+    background-size: 100%;
+    mix-blend-mode: screen;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.capacitacion h1{
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+}
+
+.capacitacion-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    padding-top: 5rem;
+}
+
+.capacitacion-card{
+    position: relative;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 15rem;
+    background-color: rgba(15, 76, 117, 0.712);
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.capacitacion-card i{
+    font-size: 4rem;
+}
+
+.capacitacion-card-title h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.capacitacion-card-info{
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    background-color: rgba(0, 0, 0, 0.644);
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soluciones-card:hover .soluciones-card-info{
+    transform: translateY(0);
+}
+
+.soluciones-card:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+}

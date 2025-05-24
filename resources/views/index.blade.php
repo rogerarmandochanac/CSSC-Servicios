@@ -5,4 +5,6 @@
 @section("contenedor")
     @include("servicios")
     @include("soluciones")
+    @include("capacitacion")
+    @include("contacto")
 @endsection

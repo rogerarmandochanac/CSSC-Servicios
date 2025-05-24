@@ -1,6 +1,7 @@
 .soluciones{
     width: 100%;
-    background-color: #020927;
+    background-color:var(--black);
+    padding-bottom: 5rem;
 }
 
 .soluciones-title{
@@ -27,7 +28,7 @@
     border-radius: 1rem;
     width: 20rem;
     height: 15rem;
-    background-color: #797575;
+    background-color: VAR(--blue_01);
     color: white;
     padding: 1rem;
     overflow: hidden;

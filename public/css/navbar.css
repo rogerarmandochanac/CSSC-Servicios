@@ -1,6 +1,3 @@
-:root{
-    --color-negro:#000;
-}
 
 nav{
     width: 90%;
@@ -23,12 +20,12 @@ nav{
 }
 
 .menu .menu-item a{
-    color: var(--color-negro);
+    color: var(--black);
     text-decoration: none;
 }
 
 .menu .menu-item .active{
-    color: #0011ff;
+    color: var(--blue_02);
 }
 
 .submenu{
