@@ -22,12 +22,24 @@
             <label for="phone">Telefono:</label>
             <input type="tel" id="phone" name="phone" required>
         </div>
-        <div class="mensaje">
-            <label for="message">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
+        <div>
+            <label for="phone">Empresa:</label>
+            <input type="tel" id="phone" name="phone" required>
         </div>
         <div>
-            <button type="submit" class="button">Enviar</button>
+            <label for="phone">Cargo:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+            <label for="phone">Pais:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="mensaje">
+            <label for="message">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aqui"></textarea>
+        </div>
+        <div>
+            <button type="submit" class="contacto-button">Enviar</button>
         </div>
     </form>
 </div>
