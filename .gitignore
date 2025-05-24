@@ -3,7 +3,6 @@
 /public/build
 /public/hot
 /public/storage
-/public/img/background02.mov
 /storage/*.key
 /storage/pail
 /vendor
